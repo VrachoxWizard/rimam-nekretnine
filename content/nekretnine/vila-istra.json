@@ -1,0 +1,19 @@
+{
+  "naslov": "Kamena vila među maslinama",
+  "objavljeno": true,
+  "primjer": true,
+  "namjena": "prodaja",
+  "vrsta": "kuca",
+  "lokacija": "Istra",
+  "cijena": 895000,
+  "povrsina": 186,
+  "sobe": 4,
+  "naslovna": "/images/vila.webp",
+  "galerija": [],
+  "opis": "Primjer prikaza oglasa. Sadržaj služi isključivo za predstavljanje izgleda stranice i nije stvarna ponuda RIMAM-a. Prije javne objave unesite točne podatke i autentične fotografije.",
+  "karakteristike": ["Terasa", "Vrt", "Pogled"],
+  "kontakt_ime": "RIMAM d.o.o.",
+  "kontakt_telefon": "098 250 447",
+  "kontakt_email": "robert.ruzic67@gmail.com"
+}
+

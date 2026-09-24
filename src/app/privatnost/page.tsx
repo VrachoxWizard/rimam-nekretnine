@@ -1,0 +1,4 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = { title: 'Privatnost', alternates: { canonical: '/privatnost/' } }
+export default function Privatnost() { return <main id="sadrzaj" className="container page-shell legal"><h1>Privatnost</h1><p>RIMAM d.o.o., Trnsko 1b, 10000 Zagreb, OIB 98938344438, voditelj je obrade podataka koje nam dobrovoljno pošaljete putem telefona ili e-pošte.</p><p>Ova stranica ne pohranjuje sadržaj obrasca. Gumb za slanje otvara vaš program za e-poštu; poruka se šalje tek kada je sami pošaljete. Podatke iz upita koristimo za odgovor i komunikaciju povezanu s vašim upitom.</p><p>Za zahtjeve u vezi s osobnim podacima pišite na <a href="mailto:robert.ruzic67@gmail.com">robert.ruzic67@gmail.com</a>.</p><p>Stranica ne koristi analitičke ni marketinške kolačiće.</p></main> }

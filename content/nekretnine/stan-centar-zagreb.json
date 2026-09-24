@@ -1,0 +1,19 @@
+{
+  "naslov": "Stan s pogledom na grad",
+  "objavljeno": true,
+  "primjer": true,
+  "namjena": "prodaja",
+  "vrsta": "stan",
+  "lokacija": "Zagreb, Centar",
+  "cijena": 485000,
+  "povrsina": 112,
+  "sobe": 3,
+  "naslovna": "/images/stan-suvremeni.webp",
+  "galerija": ["/images/hero.webp", "/images/stan-klasika.webp"],
+  "opis": "Primjer prikaza oglasa. Svaka nekretnina dobiva vlastitu galeriju, pregledan opis i jasno istaknute informacije. Tekst i fotografije zamijenite stvarnim podacima prije javne objave.",
+  "karakteristike": ["Balkon", "Lift", "Parkirno mjesto"],
+  "kontakt_ime": "RIMAM d.o.o.",
+  "kontakt_telefon": "098 250 447",
+  "kontakt_email": "robert.ruzic67@gmail.com"
+}
+
