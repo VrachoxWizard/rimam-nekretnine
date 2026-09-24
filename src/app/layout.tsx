@@ -21,6 +21,6 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const business = { '@context': 'https://schema.org', '@type': 'RealEstateAgent', name: 'RIMAM d.o.o.', url: origin, telephone: '+38598250447', email: 'robert.ruzic67@gmail.com', address: { '@type': 'PostalAddress', streetAddress: 'Trnsko 1b', postalCode: '10000', addressLocality: 'Zagreb', addressCountry: 'HR' } }
-  return <html lang="hr"><body><a className="skip-link" href="#sadrzaj">Preskoči na sadržaj</a><Header />{children}<Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(business) }} /></body></html>
+  return <html lang="hr" data-scroll-behavior="smooth"><body><a className="skip-link" href="#sadrzaj">Preskoči na sadržaj</a><Header />{children}<Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(business) }} /></body></html>
 }
 
