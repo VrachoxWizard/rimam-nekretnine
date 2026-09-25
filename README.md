@@ -29,3 +29,4 @@ Za Cloudflare Pages: build `npm run build`, output `out`. Vercel može prikaziva
 - `content/nekretnine`: lokalni demonstracijski oglasi
 - `scripts/optimize-images.mjs`: 480/960/1600 px WebP varijante lokalnih fotografija
 - `BRAND-AND-RESEARCH.md`: dizajn i istraživanje
+- `IMAGE-SOURCES.md`: podrijetlo ilustrativnih fotografija
