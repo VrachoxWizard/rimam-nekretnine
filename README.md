@@ -19,7 +19,7 @@ Za Cloudflare Pages: build `npm run build`, output `out`. Vercel može prikaziva
 
 ## Obrazac
 
-`POST /api/upit` (Cloudflare Pages Function) provjerava unos, Turnstile token i šalje poruku putem Resenda. Statičke rute ne pozivaju funkciju (`public/_routes.json`). Dok konfiguracija nije dovršena, obrazac nije aktivan i ne prikazuje lažnu potvrdu. Potrebne varijable nalaze se u `.env.example`; tajni ključevi pripadaju samo serveru. Sadašnja javna adresa prima upite. Prije aktivacije potvrditi tekst privatnosti s klijenticom i testirati stvarno slanje.
+`POST /api/upit` (Cloudflare Pages Function) provjerava unos, Turnstile token i šalje poruku putem Resenda. Statičke rute ne pozivaju funkciju (`public/_routes.json`). Dok konfiguracija nije dovršena, polja obrasca služe kao pregled buduće funkcije i ne prikazuju lažnu potvrdu. Izravne poveznice vode na `ana-marija@rimam.hr`. Potrebne varijable nalaze se u `.env.example`; tajni ključevi pripadaju samo serveru. Prije aktivacije potvrditi tekst privatnosti s klijenticom i testirati stvarno slanje.
 
 ## Struktura
 
