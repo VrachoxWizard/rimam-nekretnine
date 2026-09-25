@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: 'RIMAM d.o.o. agencija je za poslovanje nekretninama sa sjedištem u Zagrebu. Pronađite prostor za prave odluke.',
   alternates: { canonical: '/' },
   openGraph: { type: 'website', locale: 'hr_HR', siteName: 'RIMAM nekretnine', images: ['/images/hero.webp'] },
-  robots: { index: true, follow: true },
+  robots: process.env.VERCEL_ENV === 'preview' || process.env.SHOW_DEMO_LISTINGS === 'true' ? { index: false, follow: false } : { index: true, follow: true },
   icons: { icon: '/favicon.svg' },
 }
 

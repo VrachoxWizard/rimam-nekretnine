@@ -2,11 +2,13 @@
   "name": "rimam-nekretnine",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "predev": "node scripts/optimize-images.mjs",
+    "predev": "node scripts/sync-hygraph.mjs && node scripts/optimize-images.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/sync-hygraph.mjs && node scripts/optimize-images.mjs",
     "build": "next build",
+    "test": "node --test tests/*.test.mjs",
     "start": "npx serve out"
   },
   "dependencies": {
